@@ -191,7 +191,7 @@ class BigCard extends StatelessWidget {
 }
 
 class FavoritesPage extends StatelessWidget {
-  @override
+  @override 
   Widget build(BuildContext context) {
     var appState = context.watch<MyAppState>();
 
